@@ -1,0 +1,71 @@
+.login-container {
+    text-align: center;
+    margin: 50px auto;
+}
+.login-container h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 12px;
+}
+.login-container form {
+    padding: 15px;
+}
+.login-container .login-fields {
+    width: 100%;
+    display: flex;
+    margin: 4px auto;
+    justify-content: center;
+}
+.login-fields label {
+    padding: 7px;
+    border-radius: 7px 0 0 7px;
+    background-color: #11324D;
+}
+.login-fields .login-fields-icon {
+    color: #6B7AA1;
+    flex: 0 1 auto;
+    margin: 2px;
+}
+.login-fields input {
+    border-style: none;
+    border-radius: 0 7px 7px 0;
+    background: #11324D;
+    color: #6B7AA1;
+    padding: 6px;
+    transition: background 0.6s ease;
+}
+.login-fields input:hover,
+.login-fields input:focus {
+    background: #6B7AA1;
+    color: #fafafa;
+    outline: none;
+}
+.login-fields .submit {
+    padding: 0.4rem 6rem;
+    text-transform: uppercase;
+    color: #fafafa;
+    background: #6B7AA1;
+    border-radius: 7px;
+    border-style: none;
+    transition: background 0.6s ease;
+}
+.login-fields .submit:hover { 
+    background: #6b7aa1c2;
+}
+
+.txt-login {
+    font-size: 12px;
+    padding: 4px;
+}
+.txt-login p {
+    padding: 1px;
+}
+.txt-login p .a{
+    color: #6B7AA1;
+    padding: 2px auto;
+}
+.txt-login p .a:hover{
+    color: #6b7aa1c2;
+}
+
+
